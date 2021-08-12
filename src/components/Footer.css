@@ -103,6 +103,12 @@
   max-width: 1000px;
   width: 100%;
 }
+.businessInfo {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
 
 .social-media-wrap {
   display: flex;

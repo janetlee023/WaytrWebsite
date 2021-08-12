@@ -1,0 +1,11 @@
+.homeBackground {
+  height: 500px;
+}
+.teamHeader {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}

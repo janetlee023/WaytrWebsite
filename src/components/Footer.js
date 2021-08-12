@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Start using WAYTR now!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              WAYTR
+              {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>WAYTR © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -80,7 +80,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='http://www.instagram.com/waytr.co/'
               target='_blank'
               aria-label='Instagram'
             >

@@ -8,16 +8,124 @@ video {
 
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  /* height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center;
+  position: absolute; */
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain; */
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
+}
+.homeBackground {
+  /* position: absolute;
+  width: 1440px; */
+  height: 857px;
+  left: -173px;
+  top: -176px;
+
+  background: linear-gradient(267.04deg, #1EAE98 32.13%, rgba(255, 255, 255, 0) 109.78%), linear-gradient(87.47deg, #CA9BFF 25.77%, rgba(106, 8, 215, 0) 99.11%); 
+  /* height: 40%;
+  width: 100%;
+  background: linear-gradient(267.04deg, #1EAE98 32.13%, rgba(255, 255, 255, 0) 109.78%), linear-gradient(87.47deg, #CA9BFF 25.77%, rgba(106, 8, 215, 0) 99.11%); */
+}
+.waytrTitle {
+  /* WAYTR */
+  position: absolute;
+  width: 113px;
+  height: 20px;
+  left: 180px;
+  top: 40px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  /* identical to box height, or 62% */
+
+  text-align: center;
+
+color: #FFFFFF;
 }
 
+.infoArea {
+/* Contactless.Efficient. */
+position: absolute;
+width: 392px;
+height: 121px;
+left: 181px;
+top: 184px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 60px;
+/* or 95% */
+color: #000000;
+}
+
+.description {
+  position: absolute;
+  width: 619px;
+  height: 132px;
+  left: 181px;
+  top: 316px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  color: #000000;
+}
+.features {
+  /* position: absolute;
+  width: 1440px; */
+  height: 558px;
+  left: 0px;
+  top: 795px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background: #F7FAFF;
+}
+.featuresBlocks {
+  display: flex;
+  justify-content: space-evenly;
+}
+.featuresHeader {
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 120px;
+}
+.blockHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.blockDesc {
+  width: 300px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.businessInfo {
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+}
 .hero-container > h1 {
   color: #fff;
   font-size: 100px;
