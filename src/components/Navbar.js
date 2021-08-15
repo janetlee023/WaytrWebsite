@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} style = {{ marginLeft: 40 }}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             WAYTR
             {/* <i class='fab fa-typo3' /> */}
           </Link>
@@ -66,11 +66,11 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Sign In
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>SIGN IN</Button>}
         </div>
       </nav>
     </>

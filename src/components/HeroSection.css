@@ -39,7 +39,7 @@ video {
   position: absolute;
   width: 113px;
   height: 20px;
-  left: 180px;
+  left: 120px;
   top: 40px;
 
   font-family: Open Sans;
@@ -59,7 +59,7 @@ color: #FFFFFF;
 position: absolute;
 width: 392px;
 height: 121px;
-left: 181px;
+left: 135px;
 top: 184px;
 
 font-family: DM Sans;
@@ -75,7 +75,7 @@ color: #000000;
   position: absolute;
   width: 619px;
   height: 132px;
-  left: 181px;
+  left: 135px;
   top: 316px;
 
   font-family: Rubik;
@@ -105,7 +105,7 @@ color: #000000;
 .featuresHeader {
   font-size: 48px;
   font-weight: bold;
-  margin-left: 120px;
+  margin-left: 135px;
 }
 .blockHeader {
   font-size: 32px;

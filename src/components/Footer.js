@@ -6,26 +6,32 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Start using WAYTR now!
+      <div>
+        <p>WAYTR</p>
+        <p>
+          123 Example St, New York, <br/>NY 12345-6789 <br/>hello@example.com <br/>(123)-456-7890
         </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-      <div class='footer-links'>
+      </div>
+        {/* <div>
+          <p className='footer-subscription-heading'>
+            Start using WAYTR now!
+          </p>
+          <p className='footer-subscription-text'>
+            You can unsubscribe at any time.
+          </p>
+          <div className='input-areas'>
+            <form>
+              <input
+                className='footer-input'
+                name='email'
+                type='email'
+                placeholder='Your Email'
+              />
+              <Button buttonStyle='btn--outline'>Subscribe</Button>
+            </form>
+          </div>          
+        </div> */}
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -59,13 +65,14 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      {/* <i class='fab fa-typo3' /> */}
+{/* 
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               WAYTR
-              {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
           <small class='website-rights'>WAYTR © 2021</small>
@@ -112,7 +119,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

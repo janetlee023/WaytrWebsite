@@ -1,12 +1,19 @@
-.footer-container {
+/* .footer-container {
   background-color: #242424;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+.footer-container {
+  background-color: #242424;
+  color: white;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-
 .footer-subscription {
   display: flex;
   flex-direction: column;
@@ -103,12 +110,11 @@
   max-width: 1000px;
   width: 100%;
 }
-.businessInfo {
-  height: 200px;
+/* .businessInfo {
   display: flex;
   flex-direction: column;
-  background-color: white;
-}
+  color: white;
+} */
 
 .social-media-wrap {
   display: flex;
